@@ -1,7 +1,7 @@
 
 # Next.js Tailwind ESLint Boilerplate
 
-A minimalist boilerplate for starting projects with Next.js, TailwindCSS and ESLint.
+A minimalist boilerplate for starting projects with Next.js, TailwindCSS , ESLint, Prettier and Husky.
 
 ## Features
 
