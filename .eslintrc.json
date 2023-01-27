@@ -1,3 +1,26 @@
 {
-  "extends": "next/core-web-vitals"
+  
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+
+  "rules": {
+    // I suggest you add those two rules:
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "import/no-unresolved": "warn",
+    "import/order": [
+      "warn",
+      {
+        "newlines-between": "always",
+        "groups": [
+          ["builtin", "external"],
+          ["internal", "parent", "sibling", "index", "object", "type"]
+        ]
+      }
+    ]
+  }
 }
