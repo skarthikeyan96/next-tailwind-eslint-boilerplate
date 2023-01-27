@@ -1,27 +1,53 @@
+# **Next.js Boilerplate**
 
-# Next.js Tailwind ESLint Boilerplate
+A starter project that combines Next.js, Tailwind CSS, Eslint, Prettier and Husky to streamline development and ensure a cohesive, professional codebase.
 
-A minimalist boilerplate for starting projects with Next.js, TailwindCSS , ESLint, Prettier and Husky.
+## **Features**
 
-## Features
+- Next.js for server-rendered React application development
+- Tailwind CSS for an efficient utility-first styling approach
+- Eslint for code linting and maintaining a consistent code style
+- Prettier for code formatting
+- Husky for Git hooks, such as running linting and formatting checks before committing code
 
-- **Next.js**: A minimalistic framework for server-rendered React applications.
-- **TailwindCSS**: A utility-first CSS framework for rapid UI development.
-- **ESLint**: A pluggable linting utility for JavaScript.
+## **Getting Started**
 
-## Quick Start
+**Clone the repository**
 
 ```bash
-# Clone the repository
-git clone https://github.com/skarthikeyan96/next-tailwind-eslint-boilerplate
+git clone https://github.com/<username>/next-tailwind-eslint-prettier-husky-boilerplate.git
+```
 
-# Install dependencies
+**Install dependencies**
+
+```bash
 npm install
+```
 
-# Start the development server
+**Start the development server**
+
+```bash
 npm run dev
 ```
 
-## License
+**Build for production**
 
-The code is available under the [MIT License](LICENSE)
+```bash
+npm run build
+```
+
+## **Customization**
+
+Feel free to customize the boilerplate to suit your specific needs.
+
+## **Contributing**
+
+If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+## **License**
+
+This project is licensed under the MIT License.
+
+```
+Please note that this is an example, you can change the boilerplate name, repository link or anything else that fits your project.
+```
