@@ -1,5 +1,4 @@
 {
-  
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
@@ -7,7 +6,18 @@
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
-
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
   "rules": {
     // I suggest you add those two rules:
     "@typescript-eslint/no-unused-vars": "error",
@@ -18,8 +28,18 @@
       {
         "newlines-between": "always",
         "groups": [
-          ["builtin", "external"],
-          ["internal", "parent", "sibling", "index", "object", "type"]
+          [
+            "builtin",
+            "external"
+          ],
+          [
+            "internal",
+            "parent",
+            "sibling",
+            "index",
+            "object",
+            "type"
+          ]
         ]
       }
     ]
