@@ -13,7 +13,7 @@ A minimalist boilerplate for starting projects with Next.js, TailwindCSS and ESL
 
 ```bash
 # Clone the repository
-git clone https://github.com/user/repo.git
+git clone https://github.com/skarthikeyan96/next-tailwind-eslint-boilerplate
 
 # Install dependencies
 npm install
