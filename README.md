@@ -1,5 +1,7 @@
 # **Next.js Boilerplate**
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fskarthikeyan96%2Fnext-tailwind-eslint-boilerplate)
+
 A starter project that combines Next.js, Tailwind CSS, Eslint, Prettier and Husky to streamline development and ensure a cohesive, professional codebase.
 
 ## **Features**
